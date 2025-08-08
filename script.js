@@ -10,19 +10,24 @@ document.addEventListener('DOMContentLoaded' , () =>{
 
     const questions = [
         {
-            question: "What is the capital of france?",
-            choices:["Paris" , "London" , "Berlin" , "Madrid"],
-            answer: "Paris",
+            question: "Which of the following is not a programming language?",
+            choices:["Python" , "Java" , "HTML" , "Linux"],
+            answer: "Linux",
         },
         {
-            question: "Which plant is known as red plant?",
-            choices:["Mars" , "Venus" , "Jupiter" , "Saturn"],
-            answer: "Mars",
+            question: "What is the capital of Canada?",
+            choices:["Toronto" , "Vancouver" , "Ottawa" , "Montreal"],
+            answer: "Ottawa",
         },
         {
-            question: "Who wrote the 'hamlet'?",
-            choices:["Charles Dickens" , "Jane Austen" , "William Shakespeare" , "Mark Twain"],
-            answer: "William Shakespeare",
+            question: `What will be the output of the following Python code? print("5" + "5")`,
+            choices:["10" , "55" , "Error" , "None"],
+            answer: "55",
+        },
+        {
+            question: `In JavaScript, which function is used to delay execution without blocking the main thread?`,
+            choices:["wait()" , "sleep()" , "setTimeout()" , "pause()"],
+            answer: "setTimeout()",
         },
 
     ];
